@@ -1,0 +1,29 @@
+.add-course {
+
+    display: flex;
+    justify-content: center;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    &__label {
+        color: #EDF2F4;
+    }
+
+    &__input {
+        padding: 10px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    &__submit {
+        border: none;
+        background-color: #D90429;
+        padding: 5px;
+        border-radius: 15px;
+        font-size: 1.1em;
+    }
+}
