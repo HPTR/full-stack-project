@@ -1,0 +1,33 @@
+.course-list-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    font-size: 1.3em;
+
+    &:nth-child(2) {
+        background-color: #8D99AE;
+    }
+}
+
+.table-column {
+    width: 400px;
+}
+
+a {
+    color: #EDF2F4;
+    text-decoration: none;
+
+    &:visited {
+        color: #EDF2F4;
+    }
+
+    &:hover {
+        color: #EDF2F4;
+    }
+
+    &:active {
+        color: #EDF2F4;
+    }
+}
